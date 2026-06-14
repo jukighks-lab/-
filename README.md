@@ -24,8 +24,10 @@
 
 #include <opencv2/opencv.hpp>
 #include <iostream>
+
 using namespace cv;
 using namespace std;
+
 int main() {
     // 1. 상수 설정 (실제 환경에 맞게 수정 필요)
     const double REAL_WIDTH = 14.0;    // 물체의 실제 가로 길이 (예: 14cm)
@@ -33,6 +35,7 @@ int main() {
 
     // 웹캠 열기 (기본 카메라: 0)
     VideoCapture cap(0);
+
     if (!cap.isOpened()) {
         cerr << "카메라를 열 수 없습니다!" << endl;
         return -1;
@@ -89,6 +92,5 @@ int main() {
     destroyAllWindows();
     return 0;
 }
-
 
 - - -
