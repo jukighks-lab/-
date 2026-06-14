@@ -29,7 +29,7 @@ using namespace cv;
 using namespace std;
 
 int main() {
-    // 1. 상수 설정 (실제 환경에 맞게 수정 필요)
+                                        // 1. 상수 설정 (실제 환경에 맞게 수정 필요)
     const double REAL_WIDTH = 14.0;    // 물체의 실제 가로 길이 (예: 14cm)
     const double FOCAL_LENGTH = 700.0; // 사전 테스트로 구한 카메라의 초점 거리 (픽셀 단위)
 
